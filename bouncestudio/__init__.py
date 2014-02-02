@@ -34,7 +34,7 @@ BOUNCE_MAP = {0: "NON BOUNCE", 10:"HARD BOUNCE", 20:"SOFT BOUNCE GENERAL",
         70:"TRANSIENT BOUNCE", 80:"SUBSCRIBE REQUEST",
         90:"UNSUBSCRIBE REQUEST", 100:"CHALLENGE RESPONSE"}
 
-DSNDetails = collections.namedtuple("DNSDetails", "bs_code bs_type email") 
+DSNDetails = collections.namedtuple("DSNDetails", "bs_code bs_type email") 
 
 class Bounce(object):
 
